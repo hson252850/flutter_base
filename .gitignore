@@ -20,7 +20,7 @@
 .classpath
 .project
 .settings/
-.vscode/
+# .vscode/
 
 # Flutter repo-specific
 /bin/cache/
@@ -105,6 +105,8 @@ lib/generated/
 **/ios/Flutter/flutter_export_environment.sh
 **/ios/ServiceDefinitions.json
 **/ios/Runner/GeneratedPluginRegistrant.*
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+*.xcworkspace
 
 # macOS
 **/macos/Flutter/GeneratedPluginRegistrant.swift
